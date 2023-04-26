@@ -33,13 +33,40 @@ const questions = [
   },
   {
     type: "input",
+    name: "require",
+    message: "List any project dependencies here.",
+  },
+  {
+    type: "input",
     name: "features",
     message: "List some cool features about this project here.",
   },
   {
     type: "input",
+    name: "usage",
+    message:
+      "State the languages or technologies associated with this project.",
+  },
+  {
+    type: "input",
     name: "creator",
     message: "Write your GitHub username.",
+  },
+  {
+    type: "input",
+    name: "email",
+    message: "Provide a valid email address.",
+  },
+  {
+    type: "input",
+    name: "contributors",
+    message: "Please list any contributors. (Use GitHub usernames)",
+    default: "",
+  },
+  {
+    type: "input",
+    name: "test",
+    message: "Provide walkthrough of required tests if applicable.",
   },
 ];
 
